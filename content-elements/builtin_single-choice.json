@@ -1,0 +1,44 @@
+[
+  {
+    "id": "builtin_single-choice-pbJRSq",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Male",
+          "value": "M"
+        },
+        {
+          "title": "Female",
+          "value": "F"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Select your gender"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-20T04:38:30.494Z",
+    "modifiedOn": "2020-04-20T04:38:30.494Z"
+  },
+  {
+    "id": "builtin_single-choice-MXXCtc",
+    "formData": {
+      "choices$en": [
+        {
+          "title": "Male",
+          "value": "M"
+        },
+        {
+          "title": "Female",
+          "value": "F"
+        }
+      ],
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Select your gender"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-20T04:56:02.385Z",
+    "modifiedOn": "2020-04-20T04:56:02.385Z"
+  }
+]

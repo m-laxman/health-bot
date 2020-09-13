@@ -1,0 +1,31 @@
+{
+  "name": "name",
+  "utterances": {
+    "en": [
+      "Name",
+      "My name is [rushikesh](name)",
+      "my name is [rushikesh](name)",
+      "my name is [Rushikesh](name)",
+      "My name is [Rushikesh](name)",
+      "[Rushikesh](name)",
+      "[rushikesh](name)",
+      "I am [Rushikesk](name)",
+      "I'm [rushikesh](name)",
+      "I'm [Rushikesh](name)",
+      "I am [rushikesh](name)"
+    ]
+  },
+  "slots": [
+    {
+      "id": "-DmakeSjxSXvg4cIUAZwe",
+      "name": "name",
+      "entities": [
+        "name"
+      ],
+      "color": 1
+    }
+  ],
+  "contexts": [
+    "global"
+  ]
+}

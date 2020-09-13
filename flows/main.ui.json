@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "position": {
+        "x": 5,
+        "y": 25
+      }
+    },
+    {
+      "id": "898f0365a6",
+      "position": {
+        "x": 295,
+        "y": -15
+      }
+    },
+    {
+      "id": "06ebafa5f9",
+      "position": {
+        "x": 240,
+        "y": 190
+      }
+    },
+    {
+      "id": "a22e173179",
+      "position": {
+        "x": 515,
+        "y": 205
+      }
+    },
+    {
+      "id": "091bbbf109",
+      "position": {
+        "x": 15,
+        "y": 295
+      }
+    },
+    {
+      "id": "531a902817",
+      "position": {
+        "x": 545,
+        "y": 385
+      }
+    },
+    {
+      "id": "e9026992b1",
+      "position": {
+        "x": 825,
+        "y": 335
+      }
+    },
+    {
+      "id": "b2cce0455d",
+      "position": {
+        "x": 780,
+        "y": 230
+      }
+    },
+    {
+      "id": "249c3be480",
+      "position": {
+        "x": 275,
+        "y": 410
+      }
+    },
+    {
+      "id": "e9f4b75326",
+      "position": {
+        "x": 855,
+        "y": 545
+      }
+    },
+    {
+      "id": "skill-3a7e6b",
+      "position": {
+        "x": 660,
+        "y": -15
+      }
+    }
+  ],
+  "links": [
+    {
+      "source": "06ebafa5f9",
+      "sourcePort": "out0",
+      "target": "a22e173179",
+      "points": [
+        {
+          "x": 446,
+          "y": 272
+        },
+        {
+          "x": 615,
+          "y": 198
+        }
+      ]
+    },
+    {
+      "source": "091bbbf109",
+      "sourcePort": "out0",
+      "target": "e9026992b1",
+      "points": [
+        {
+          "x": 221,
+          "y": 395
+        },
+        {
+          "x": 925,
+          "y": 328
+        }
+      ]
+    },
+    {
+      "source": "249c3be480",
+      "sourcePort": "out0",
+      "target": "e9f4b75326",
+      "points": [
+        {
+          "x": 481,
+          "y": 555
+        },
+        {
+          "x": 955,
+          "y": 538
+        }
+      ]
+    },
+    {
+      "source": "531a902817",
+      "sourcePort": "out0",
+      "target": "e9f4b75326",
+      "points": [
+        {
+          "x": 751,
+          "y": 530
+        },
+        {
+          "x": 955,
+          "y": 538
+        }
+      ]
+    },
+    {
+      "source": "898f0365a6",
+      "sourcePort": "out0",
+      "target": "06ebafa5f9",
+      "points": [
+        {
+          "x": 501,
+          "y": 129
+        },
+        {
+          "x": 340,
+          "y": 183
+        }
+      ]
+    },
+    {
+      "source": "a22e173179",
+      "sourcePort": "out0",
+      "target": "091bbbf109",
+      "points": [
+        {
+          "x": 721,
+          "y": 305
+        },
+        {
+          "x": 115,
+          "y": 288
+        }
+      ]
+    },
+    {
+      "source": "b2cce0455d",
+      "sourcePort": "out0",
+      "target": "skill-3a7e6b",
+      "points": [
+        {
+          "x": 986,
+          "y": 263
+        },
+        {
+          "x": 760,
+          "y": -22
+        }
+      ]
+    },
+    {
+      "source": "e9026992b1",
+      "sourcePort": "out0",
+      "target": "skill-3a7e6b",
+      "points": [
+        {
+          "x": 1031,
+          "y": 446
+        },
+        {
+          "x": 760,
+          "y": -22
+        }
+      ]
+    },
+    {
+      "source": "entry",
+      "sourcePort": "out0",
+      "target": "898f0365a6",
+      "points": [
+        {
+          "x": 211,
+          "y": 163
+        },
+        {
+          "x": 395,
+          "y": -22
+        }
+      ]
+    },
+    {
+      "source": "skill-3a7e6b",
+      "sourcePort": "out0",
+      "target": "249c3be480",
+      "points": [
+        {
+          "x": 866,
+          "y": 30
+        },
+        {
+          "x": 375,
+          "y": 403
+        }
+      ]
+    },
+    {
+      "source": "skill-3a7e6b",
+      "sourcePort": "out2",
+      "target": "b2cce0455d",
+      "points": [
+        {
+          "x": 866,
+          "y": 81
+        },
+        {
+          "x": 880,
+          "y": 223
+        }
+      ]
+    }
+  ]
+}

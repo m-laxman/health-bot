@@ -1,0 +1,137 @@
+[
+  {
+    "id": "builtin_text-NyLPRP",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Hello, I am healthbot. _ I hope you are doing well. _"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T04:13:56.521Z",
+    "modifiedOn": "2020-04-16T04:18:59.932Z"
+  },
+  {
+    "id": "builtin_text-u09Xjh",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "I can help you to be a healthy person."
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T04:17:52.870Z",
+    "modifiedOn": "2020-04-16T04:20:01.431Z"
+  },
+  {
+    "id": "builtin_text-TUKaUI",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Your first name, please"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T06:32:21.644Z",
+    "modifiedOn": "2020-04-16T08:05:56.002Z"
+  },
+  {
+    "id": "builtin_text-ZQ9GvW",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Hi, {{temp.name}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T07:14:37.371Z",
+    "modifiedOn": "2020-04-20T05:40:56.176Z"
+  },
+  {
+    "id": "builtin_text-yleQ87",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Type in your age"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T08:07:24.494Z",
+    "modifiedOn": "2020-04-16T08:07:24.494Z"
+  },
+  {
+    "id": "builtin_text-N02HEc",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Type in your weight (kg)"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T08:10:12.592Z",
+    "modifiedOn": "2020-04-16T08:11:55.182Z"
+  },
+  {
+    "id": "builtin_text-wdngxQ",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Type in your height(cm)"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T08:13:20.337Z",
+    "modifiedOn": "2020-04-16T08:13:20.337Z"
+  },
+  {
+    "id": "builtin_text-GwAhyz",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "BMI is {{temp.bmif}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T08:18:46.105Z",
+    "modifiedOn": "2020-04-20T06:12:57.046Z"
+  },
+  {
+    "id": "builtin_text-zZKOUY",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "Your age is {{user.age}}, weight is {{user.weight}} kgs, height is {{user.height}} cms.",
+      "variations$en": [
+        ""
+      ]
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-16T08:22:02.854Z",
+    "modifiedOn": "2020-04-20T05:52:05.604Z"
+  },
+  {
+    "id": "builtin_text-KkvCSK",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "BMR is {{temp.bmrm}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-20T04:47:53.886Z",
+    "modifiedOn": "2020-04-20T06:00:37.762Z"
+  },
+  {
+    "id": "builtin_text-2fifUI",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "BMR is {{temp.bmrf}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-20T05:31:01.852Z",
+    "modifiedOn": "2020-04-20T06:13:10.324Z"
+  },
+  {
+    "id": "builtin_text-B2kV2f",
+    "formData": {
+      "markdown$en": true,
+      "typing$en": true,
+      "text$en": "BMI is {{temp.bmim}}"
+    },
+    "createdBy": "admin",
+    "createdOn": "2020-04-20T05:37:22.084Z",
+    "modifiedOn": "2020-04-20T06:00:23.897Z"
+  }
+]

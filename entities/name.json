@@ -1,0 +1,19 @@
+{
+  "id": "name",
+  "name": "name",
+  "type": "list",
+  "occurrences": [
+    {
+      "name": "Rushikesh",
+      "synonyms": []
+    },
+    {
+      "name": "rushikesh",
+      "synonyms": []
+    }
+  ],
+  "sensitive": false,
+  "fuzzy": 0.8,
+  "examples": [],
+  "pattern": ""
+}

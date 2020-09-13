@@ -1,0 +1,195 @@
+{
+  "version": "0.0.1",
+  "catchAll": {
+    "onReceive": [],
+    "next": []
+  },
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "entry",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-7e51"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-NyLPRP",
+        "say #!builtin_text-u09Xjh"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "898f0365a6",
+      "name": "node-7e51",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-d8bb"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-TUKaUI"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"temp\",\"name\":\"name\",\"value\":\"{{event.payload.text}}\"}",
+        "say #!builtin_text-ZQ9GvW"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "06ebafa5f9",
+      "name": "node-d8bb",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2606"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-yleQ87"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"age\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "a22e173179",
+      "name": "node-2606",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-2606-copy"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-N02HEc"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"weight\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "091bbbf109",
+      "name": "node-2606-copy",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-a8d0"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-wdngxQ"
+      ],
+      "onReceive": [
+        "builtin/setVariable {\"type\":\"user\",\"name\":\"height\",\"value\":\"{{event.payload.text}}\"}"
+      ],
+      "type": "standard"
+    },
+    {
+      "id": "531a902817",
+      "name": "node-cd11",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-81f5"
+        }
+      ],
+      "onEnter": [
+        "builtin/m {}",
+        "say #!builtin_text-B2kV2f",
+        "say #!builtin_text-KkvCSK"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "e9026992b1",
+      "name": "node-a8d0",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-3a7e6b"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-zZKOUY"
+      ],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "b2cce0455d",
+      "name": "node-54ba",
+      "next": [
+        {
+          "condition": "true",
+          "node": "choice-3a7e6b"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "249c3be480",
+      "name": "node-441e",
+      "next": [
+        {
+          "condition": "true",
+          "node": "node-81f5"
+        }
+      ],
+      "onEnter": [
+        "builtin/f {}",
+        "say #!builtin_text-GwAhyz",
+        "say #!builtin_text-2fifUI"
+      ],
+      "onReceive": [],
+      "type": "standard"
+    },
+    {
+      "id": "e9f4b75326",
+      "name": "node-81f5",
+      "next": [
+        {
+          "condition": "true",
+          "node": "END"
+        }
+      ],
+      "onEnter": [],
+      "onReceive": null,
+      "type": "standard"
+    },
+    {
+      "id": "skill-3a7e6b",
+      "type": "skill-call",
+      "skill": "choice",
+      "name": "choice-3a7e6b",
+      "flow": "skills/choice-3a7e6b.flow.json",
+      "next": [
+        {
+          "caption": "User picked [F]",
+          "condition": "temp['skill-choice-ret-a0lim7zjdt'] == \"F\"",
+          "node": "node-441e"
+        },
+        {
+          "caption": "User picked [M]",
+          "condition": "temp['skill-choice-ret-a0lim7zjdt'] == \"M\"",
+          "node": ""
+        },
+        {
+          "caption": "On failure",
+          "condition": "true",
+          "node": "node-54ba"
+        }
+      ],
+      "onEnter": null,
+      "onReceive": null
+    }
+  ]
+}
